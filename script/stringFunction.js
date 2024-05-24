@@ -90,3 +90,93 @@
 // // To round your output to two place precision.
 // console.log(numb1.toFixed(2));
 
+// let numbers = [2, 8, 10, 1, 4, 11]
+// console.log(`Highest number: ${Math.max(...numbers)}`);
+// console.log(`lowest number: ${Math.min(...numbers)}`);
+
+// let arr1 = [1, 4, 5]
+// let arr2 = arr1
+// let arr2 = Array.from(arr1)
+// arr2[0] = 10 
+// console.log('arr1: ', arr1);
+// console.log('arr2: ', arr2);
+// Shallow copy
+// deep copy
+// console.log(...arr1)
+
+// console.log('our lecturer\'s name is Joel');
+
+// (function addition(num1, num2) {
+//     console.log(num1 + num2);
+// })(2, 3)
+// Recursive function
+// function loop(cnt, limits) {
+//     if (cnt > limit) {
+//         return
+//     } else {
+//         console.log(cnt);
+//         loop(cnt + 1, limit)
+//     }
+// }
+// loop(0, 10)
+
+// let cnt = 1
+// function repeat(limit) {
+//     if(cnt < limit) {
+//     console.log(cnt);
+//     cnt++
+//     repeat(limit--)
+//     }
+// }
+// repeat(10)
+
+// function repeatString(count) {
+//     for(let i = 1; i <= count; i++) {
+//         console.log(i);
+//     }
+// }
+// repeatString(10);
+// repeat(10)
+
+// let person1 = {
+//     firstName: 'John',
+//     lastName: 'Dimbu'
+// }
+// let person2 = {
+//     firstName
+// }
+// for (let i in person1) {
+//     console.log(`${i} -> ${person1 [i]}`)
+// }
+// function personDetails(firstName, lastName) {
+//     return {firstName, lastName }
+// }
+
+// let person1 = personDetails ('Mardoqueiro', 'bruce')
+// let person2 = personDetails('Mapule', 'Cena')
+// console.log(person1)
+// console.log(person2)
+
+// function PersonDetails
+//     (name, surname, age) {
+//     this.firstName = name
+//     this.lastName = surname
+//     this.age = age 
+// }
+// let person1 = new PersonDetails('Mardoqueiro', 'Dimbu', 20)
+// let person2 = new PersonDetails('Mapule', 'Mabuza', 26)
+
+// function personDetails(firstName, lastName) {
+//     return {
+//         firstName, 
+//         lastName,
+//         display() {
+//             console.log (
+//                     `first name: ${firstName}\nLast name: ${lastName}`
+//         )}
+//     }
+// }
+
+async function fetchData() {
+    let response 
+}
